@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
+/* website config */
+
+  *{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12pt;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  button {
+    font-weight: 700;
+  }
+
+/* nav bar */
+#nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 5px;
+  height: 35px;
+}
+
+#nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  padding: 4px;
+}
+
+.top-bar-left {
+  display: inline-block;
+  float: left;
+  margin-left: 20px;
+}
+
+.top-bar-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin-right: 20px;
+  display: inline;
+}
+
+.top-bar-links li{
+  display: inline;
+}
+
+/* search bar */
+#search-section {
+  background-color: #205A7B;
+}
+
+.search-bar {
+  height: 50px;
+  display: block;
+  background-color: #205A7B;
+  margin-left: 300px;
+}
+
+.logo {
+  float: left;
+  margin-left: 5px;
+  padding: 15px;
+  width: 100px;
+}
+
+.search {
+  margin-top: 5px;
+  padding: 5px;
+  float: left;
+}
+
+.field input {
+  height: 30px;
+  width: 1000px;
+  border-radius: 3px;
+  border: none;
+}
+
+.field button {
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+  margin-right: 30px;
+}
+
+.field button img{
+  height: 10px;
+}
+
+.signup a{
+  float: left;
+  color: aliceblue;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.signup img{
+  float: left;
+  padding: 4px;
+  height: 40px;
+}
+
+/* main-section */
+#main-section {
+  height: 450px;
+  background-image: url("images/forklift.svg");
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+.info1 {
+  color: white;
+  padding-top: 70px;
+  max-width: 720px;
+  width: 100%;
+  margin-left: 408px;
+}
+
+.info1 p{
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+.info1 button{
+  margin-top: 30px;
+  padding: 10px;
+  max-width: 200px;
+  width: 100%;
+  border-style: none;
+  box-shadow: 10px 10px;
+  border-radius: 3px;
+}
+
+/* section2 */
+#section-2 {
+  height: 470px;
+  background-color:#273546;
+  width: 100%;
+
+}
+
+.info2-img img{
+  margin-top: 120px;
+  width: 20%;
+  margin-left: 450px;
+  margin-right: 30px;
+  height: 200px;
+  float: left;
+
+}
+
+.info2-info {
+  color: white;
+  float: left;
+  margin-right: 80px;
+  margin-top: 50px;
+  width: 600px;
+  line-height: 1.2;
+}
+
+.info2-list{
+  margin-top: 30px;
+  line-height: 1.6;
+}
+
+.info2-info button{
+  margin-top: 30px; 
+  padding: 10px;
+  max-width: 200px;
+  width: 100%;
+  border-style: none;
+  box-shadow: 10px 10px;
+  border-radius: 3px;
+}
+
+/* what is npm dude */
+#npm-is {
+  height: 350px;
+	background: linear-gradient(-90deg, #5BA3A3, #2580B7);
+	background-size: 400% 400%;
+	animation: Gradient 15s ease infinite;
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+.info3 {
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 70px;
+  width: 100%;
+}
+
+.info3 p{
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.info3 button{
+  margin-top: 20px;
+  padding: 10px;
+  max-width: 200px;
+  width: 100%;
+  border-style: none;
+  box-shadow: 10px 10px;
+  border-radius: 3px;
+}
+
+/* features-3 specs */
+
+#features {
+  padding: 80px;
+}
+
+.features h1{
+  width: 100%;
+  text-align: center;
+}
+
+.features-p{
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.features-specs {
+  padding: 30px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 180px;
+}
+
+.feature-one {
+  float: left;
+  width: 33.33%;
+}
+
+.feature-two {
+  float: left;
+  width: 33.33%;
+}
+
+.feature-three {
+  float: left;
+  width: 33.33%;
+}
+
+/* U can go, footer! */
+
+
+#footer {
+  background-color: #C12127;
+  height: 80px;
+}
+
+.credits {
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
